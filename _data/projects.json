@@ -1,0 +1,11 @@
+{
+    "data":[
+        {
+            "_id": 1,
+            "title":"Inkland",
+            "description":"Inkland is your go-to tattoo app, connecting clients with talentedartists for job-seeking opportunities. Clients can easily explore artistportfolios, communicate directly with tattoo professionals, scheduleappointments, and leave reviews, while artists can showcase their work, manage their schedules, and grow their client base. With a vibrantcommunity and a user-friendly interface, Inkland is the ultimatedestination for all your tattoo needs, whether you're looking to getinked or seeking artistic opportunities in the tattoo industry.",
+            "technologies":["Next.js","Tailwind CSS","MongoDB"],
+            "image":"/Users/azulatech/Desktop/CS PROJECTS/NEXTJS/portfolio/_media/inkland.png"
+        }
+    ]
+}
