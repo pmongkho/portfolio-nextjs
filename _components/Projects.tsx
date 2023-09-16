@@ -9,18 +9,20 @@ export default function Projects() {
 		<div className=' text-slate-400'>
 			<p className=' heading'>PROJECTS</p>
 			<div className='flex flex-wrap-reverse w-full items-end justify-between'>
-				<div className=''>
-					<Image
-						src={inkland}
-						width={250}
-						height={250}
-						alt='project picture'
-						className=' border rounded border-cyan-700 mb-8'
-					/>
-				</div>
-				<div className=' md:max-w-[50vw]'>
+				<Link href='https://inkland.vercel.app/' target='_blank'>
+					<div className=''>
+						<Image
+							src={inkland}
+							width={250}
+							height={250}
+							alt='project picture'
+							className=' border rounded border-cyan-700 mb-8 hover:border-2 hover:shadow-xl transition '
+						/>
+					</div>
+				</Link>
+				<div className=' md:max-w-[50vw] '>
 					<Link href='https://inkland.vercel.app/' target='_blank'>
-						<p className=' mb-4 text-white text-lg flex items-center'>
+						<p className=' mb-4 text-white text-lg flex items-center hover:text-cyan-500 transition '>
 							Inkland
 							<svg
 								xmlns='http://www.w3.org/2000/svg'
@@ -28,7 +30,7 @@ export default function Projects() {
 								viewBox='0 0 24 24'
 								strokeWidth={1.5}
 								stroke='currentColor'
-								className='w-4 h-4 mx-2'
+								className='w-4 h-4 mx-2 '
 							>
 								<path
 									strokeLinecap='round'
@@ -57,18 +59,20 @@ export default function Projects() {
 				</div>
 			</div>
 			<div className='flex flex-wrap-reverse w-full items-end justify-between'>
-				<div className=''>
-					<Image
-						src={parkez}
-						width={250}
-						height={250}
-						alt='project picture'
-						className=' border rounded border-cyan-700 mb-8'
-					/>
-				</div>
+				<Link href='https://fhsu-park-ez.vercel.app/sign-in' target='_blank'>
+					<div className=''>
+						<Image
+							src={parkez}
+							width={250}
+							height={250}
+							alt='project picture'
+							className=' border rounded border-cyan-700 mb-8 hover:border-2 hover:shadow-xl transition'
+						/>
+					</div>
+				</Link>
 				<div className=' md:max-w-[50vw]'>
 					<Link href='https://fhsu-park-ez.vercel.app/sign-in' target='_blank'>
-						<p className=' mb-4 text-white text-lg flex items-center'>
+						<p className=' mb-4 text-white text-lg flex items-center hover:text-cyan-500 transition'>
 							ParkEZ
 							<svg
 								xmlns='http://www.w3.org/2000/svg'
