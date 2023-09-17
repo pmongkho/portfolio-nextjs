@@ -11,7 +11,7 @@ export default function Heading() {
 					width={250}
 					height={50}
 					alt='profile'
-					className='rounded-full ml-[15%] border border-cyan-700'
+					className='rounded-full ml-[15%] border-2 border-cyan-700'
 				/>
 			</div>
 			<div>

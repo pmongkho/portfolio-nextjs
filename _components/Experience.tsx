@@ -14,7 +14,7 @@ export default function Experience() {
 						<div className=' pr-8'>
 							<p className='leading-7 mb-2 '>{exp.dates}</p>
 						</div>
-						<div className='md:max-w-[70vw] '>
+						<div className='lg:max-w-[30vw] md:max-w-[50vw] '>
 							<p className='leading-7  text-white mb-2'>{exp.title}</p>
 							<p className=' leading-7 mb-2'>{exp.description}</p>
 							<div className='mb-12 flex flex-wrap'>

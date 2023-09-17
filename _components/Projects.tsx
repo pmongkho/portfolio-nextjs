@@ -8,9 +8,9 @@ export default function Projects() {
 	return (
 		<div className=' text-slate-400'>
 			<p className=' heading'>PROJECTS</p>
-			<div className='flex flex-wrap-reverse w-full items-end justify-between'>
+			<div className='flex flex-wrap-reverse w-full items-end justify-between mb-8'>
 				<Link href='https://inkland.vercel.app/' target='_blank'>
-					<div className=''>
+					<div className='lg:max-w-[12vw] '>
 						<Image
 							src={inkland}
 							width={250}
@@ -20,7 +20,7 @@ export default function Projects() {
 						/>
 					</div>
 				</Link>
-				<div className=' md:max-w-[50vw] '>
+				<div className='lg:max-w-[25vw] md:max-w-[50vw] '>
 					<Link href='https://inkland.vercel.app/' target='_blank'>
 						<p className=' mb-4 text-white text-lg flex items-center hover:text-cyan-500 transition '>
 							Inkland
@@ -41,15 +41,8 @@ export default function Projects() {
 						</p>
 					</Link>
 					<p>
-						Inkland is your go-to tattoo app, connecting clients with
-						talentedartists for job-seeking opportunities. Clients can easily
-						explore artistportfolios, communicate directly with tattoo
-						professionals, scheduleappointments, and leave reviews, while
-						artists can showcase their work, manage their schedules, and grow
-						their client base. With a vibrantcommunity and a user-friendly
-						interface, Inkland is the ultimatedestination for all your tattoo
-						needs, whether you're looking to getinked or seeking artistic
-						opportunities in the tattoo industry.
+						Inkland is your go-to tattoo app, connecting clients with talented
+						artists for job-seeking opportunities or tattoo-inquiring opportunities.
 					</p>
 					<div className=' py-4'>
 						<span className='technology-item'>Next.js</span>
@@ -57,10 +50,11 @@ export default function Projects() {
 						<span className='technology-item'>MongoDB</span>
 					</div>
 				</div>
-			</div>
+            </div>
+            
 			<div className='flex flex-wrap-reverse w-full items-end justify-between'>
 				<Link href='https://fhsu-park-ez.vercel.app/sign-in' target='_blank'>
-					<div className=''>
+					<div className='lg:max-w-[12vw] '>
 						<Image
 							src={parkez}
 							width={250}
@@ -70,7 +64,7 @@ export default function Projects() {
 						/>
 					</div>
 				</Link>
-				<div className=' md:max-w-[50vw]'>
+				<div className='lg:max-w-[25vw] md:max-w-[50vw]'>
 					<Link href='https://fhsu-park-ez.vercel.app/sign-in' target='_blank'>
 						<p className=' mb-4 text-white text-lg flex items-center hover:text-cyan-500 transition'>
 							ParkEZ
@@ -90,19 +84,11 @@ export default function Projects() {
 							</svg>
 						</p>
 					</Link>
+
 					<p>
 						ParkEZ is the ultimate solution for hassle-free parking in the
 						digital age. With our innovative automated parking garage app,
-						finding and securing a parking spot has never been easier. Simply
-						open the app, and it will guide you to the nearest available parking
-						space in real-time, optimizing your parking experience. No more
-						circling around crowded lots or struggling to find an open spot.
-						ParkEZ also offers seamless mobile payments, eliminating the need
-						for cash or card transactions. You can reserve parking spaces in
-						advance, receive alerts when your time is running out, and even
-						navigate back to your car effortlessly. Say goodbye to parking
-						frustrations – ParkEZ is here to simplify urban mobility, making
-						parking a breeze for all.
+						finding and securing a parking spot has never been easier.
 					</p>
 					<div className=' py-4'>
 						<span className='technology-item'>Next.js</span>
