@@ -8,7 +8,7 @@ import Projects from '@/_components/Projects'
 export default function Home() {
   return (
 		<div className='lg:flex '>
-			<div className='lg:px-20 lg:min-w-[50vw] mb-24 flex justify-center'>
+			<div className='lg:px-20 lg:min-w-[50vw] mb-20 flex justify-center'>
 				{' '}
 				{/* head */}
 				<Heading />

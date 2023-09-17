@@ -1,6 +1,6 @@
 
 import experience from '../_data/experience.json'
-import SeeMoreButton from './seeMoreButton'
+import SeeMoreButton from './SeeMoreButton'
 
 export default function Experience() {
 	const data = experience.data
