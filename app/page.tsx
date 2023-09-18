@@ -1,6 +1,7 @@
 import About from '@/_components/About'
 import Education from '@/_components/Education'
 import Experience from '@/_components/Experience'
+import Footer from '@/_components/Footer'
 import Heading from '@/_components/Heading'
 import Projects from '@/_components/Projects'
 
@@ -21,7 +22,8 @@ export default function Home() {
 				{/* experience */}
 				<Experience />
 				{/* projects */}
-				<Projects />
+			  <Projects />
+			  <Footer/>
 			</div>
 		</div>
 	)
