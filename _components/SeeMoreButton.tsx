@@ -8,7 +8,7 @@ export default function SeeMoreButton({ description }:any) {
     return (
 			<div>
 				<p className={` leading-7 mb-2 ${seeMore ? '' : 'line-clamp-5'}`}>
-					<ul className=' list-disc'>
+					<ul className=' px-4 list-disc'>
 						{description?.map((descr: string) => (
 							<li>{descr}</li>
 						))}
