@@ -6,17 +6,16 @@ export default function SeeMoreButton({ description }:any) {
  	const [seeMore, setSeeMore] = useState(false)
  
     return (
-			<div>
-				<p className={` leading-7 mb-2 ${seeMore ? '' : 'line-clamp-5'}`}>
-					<ul className=' px-4 list-disc'>
-						{description?.map((descr: string) => (
-							<li>{descr}</li>
-						))}
-					</ul>
-				</p>
-				<button onClick={() => setSeeMore(!seeMore)} className='leading-7 mb-2'>
-					{seeMore ? 'see less' : 'see more'}
-				</button>
-			</div>
-		)
+		<div>
+			<p className={` leading-7 mb-2 ${seeMore ? '' : 'line-clamp-5'}`}>
+				{description}
+			</p>
+			<button
+				onClick={() => setSeeMore(!seeMore)}
+				className='leading-7 mb-2'
+			>
+				{seeMore ? 'see less' : 'see more'}
+			</button>
+		</div>
+	)
 }

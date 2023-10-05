@@ -1,4 +1,5 @@
 import About from '@/_components/About'
+import Certificates from '@/_components/Certificates'
 import Education from '@/_components/Education'
 import Experience from '@/_components/Experience'
 import Footer from '@/_components/Footer'
@@ -16,7 +17,9 @@ export default function Home() {
 			</div>
 			<div className='[&>*]:mb-24'>
 				{/* education */}
-				<Education />
+			  <Education />
+			  {/* certificates */}
+			  <Certificates/>
 				{/* about */}
 				<About />
 				{/* experience */}
