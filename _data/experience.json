@@ -2,31 +2,17 @@
 "data":[
         {
     "_id":1,
-    "dates":"Fall 2023",
-    "title":"Software Engineer · FHSU Student",
-    "description":"In my final year as a computer science major, I acquired a comprehensive skill set that bridged technical expertise and business acumen. In software engineering, I honed my ability to design, develop, and maintain complex software systems, emphasizing best practices in coding, project management, and collaboration. The software engineering seminar enriched my understanding of industry trends, emerging technologies, and the importance of agile methodologies in delivering successful software projects. In backend web development II, specializing in Angular.js, I mastered advanced server-side programming with a focus on Angular.js, integrating databases and APIs to build robust, scalable web applications. This culmination of knowledge equips me with the proficiency and strategic thinking needed to excel in the dynamic field of computer science.",
-    "technologies":["C++","Java","Data Structures & Algorithms","Angular.js","Node.js"]
+    "dates":"October 2023 - Present",
+    "title":"Research Assistant in Computation Biology",
+    "description":"During my undergraduate research experience in Computational Biology under the guidance of Dr. Michael Gruenstaeudl, I actively engaged in the development and enhancement of innovative software tools. My contributions included implementing new features, debugging existing code, and performing code refactoring to improve software efficiency and readability. I undertook rigorous testing of the code against benchmark datasets, which involved creating unit tests and writing comprehensive docstrings to ensure clarity in code documentation. Additionally, I played a key role in documenting the software tool's functionality for scientific manuscripts, where I was responsible for drafting figures and tables that effectively conveyed our findings and methodologies. My collaboration with Dr. Gruenstaeudl was integral to the project's success; we held regular meetings to coordinate code implementations and assess the software's performance. I also contributed significantly to the project's codebase, making substantial commits to the master branch on GitHub, all under the oversight and guidance of Dr. Gruenstaeudl. This experience not only honed my technical skills but also enriched my collaborative and communication abilities in a research setting.",
+    "technologies":["Python","Data Structures & Algorithms"]
 },
     {
     "_id":2,
-    "dates":"Spring 2023",
+    "dates":"Spring 2021 - December 2023",
     "title":"Software Engineer · FHSU Student",
-    "description":"In backend web development, featuring Node.js and PHP, I learned to build server-side applications and APIs, gaining expertise in using these languages for web development. In operating systems I was provided with insights into the core principles of managing computer resources and processes efficiently, enhancing my understanding of system architecture. In computer graphics, I delved into creating and manipulating visual elements using various technologies and algorithms, expanding my knowledge of graphical rendering. Lastly, my exposure to Python equipped me with a versatile programming language for various applications, further enhancing your coding skills and adaptability in the software development field.",
-    "technologies":["PHP","Node.js","Express","MongoDB/Express"]
-},
-    {
-    "_id":3,
-    "dates":"Fall 2022",
-    "title":"Software Engineer · FHSU Student",
-    "description":"This semester, I gained a multifaceted skill set. In my data structures course, I mastered the organization and manipulation of data, honing my ability to design efficient algorithms and solve complex problems. In front-end web development, I acquired expertise in creating visually appealing and interactive user interfaces, using technologies like HTML, CSS, and JavaScript to bring web applications to life. Additionally, my physics class deepened my understanding of fundamental scientific principles, enriching my analytical and problem-solving capabilities. Lastly, delving into assembly language programming allowed me to explore low-level computer architecture, enabling me to work closer to the hardware and develop a deeper appreciation for the inner workings of computers. This semester provided a well-rounded foundation in both theoretical and practical aspects of computer science.",
-    "technologies":["Data Structures","Java","Javascript","Problem-Solving","Low-level programming","Computer Architechure"]
-},
-    {
-    "_id":4,
-    "dates":"Spring 2022",
-    "title":"Software Engineer · FHSU Student",
-    "description":"This semester, I gained a diverse set of skills. In my C++ course, I mastered the intricacies of this versatile programming language, becoming proficient in building efficient and robust software systems. Object-oriented programming in Java expanded my knowledge of software development paradigms, enabling me to design modular, scalable, and maintainable applications. Discrete math deepened my understanding of foundational mathematical concepts essential for solving complex algorithmic problems and reasoning about program correctness. Lastly, database design and programming equipped me with the ability to create and manage data-driven applications, covering everything from schema design to SQL querying, enriching my proficiency in developing database-driven software solutions. This semester provided a comprehensive foundation in both programming and theoretical concepts, preparing me for a range of challenges in the field of computer science.",
-    "technologies":["PHP","Node.js","Express","MongoDB/Express"]
+    "description":"As a Computer Science student, I honed my programming abilities in  C++, where I learned to build efficient software systems, and in Java, I mastered object-oriented programming, enabling me to develop scalable applications. My coursework in discrete math deepened my grasp of fundamental mathematical concepts, crucial for solving complex algorithmic problems. In database design, I acquired skills for creating and managing data-driven applications, including schema design and SQL querying.My expertise extended to data structures, where I mastered data organization and algorithm design. Front-end web development introduced me to the art of crafting interactive user interfaces with HTML, CSS, and JavaScript. Physics classes enhanced my analytical thinking, and assembly language programming gave me a deeper understanding of computer architecture.In backend web development with Node.js and PHP, I learned to create robust server-side applications and APIs. My study of operating systems provided valuable insights into efficient resource and process management. I also explored computer graphics, gaining knowledge in graphical rendering technologies and algorithms. Learning Python further diversified my programming skills, making me a versatile and adaptable player in the field of software development. Balancing these academic pursuits with my work experience, I gained a comprehensive and well-rounded foundation in both theoretical and practical aspects of computer science.",
+    "technologies":["C++","Java","Python","SQL","APIs", "DSA", "Operating Systems","System Architecture and Design"]
 }
 
     ]

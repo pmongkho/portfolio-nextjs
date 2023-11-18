@@ -42,7 +42,8 @@ export default function Projects() {
 					</Link>
 					<p>
 						Inkland is your go-to tattoo app, connecting clients with talented
-						artists for job-seeking opportunities or tattoo-inquiring opportunities.
+						artists for job-seeking opportunities or tattoo-inquiring
+						opportunities.
 					</p>
 					<div className=' py-4'>
 						<span className='technology-item'>Next.js</span>
@@ -50,10 +51,10 @@ export default function Projects() {
 						<span className='technology-item'>MongoDB</span>
 					</div>
 				</div>
-            </div>
-            
+			</div>
+
 			<div className='flex flex-wrap-reverse w-full items-end justify-between'>
-				<Link href='https://fhsu-park-ez.vercel.app/sign-in' target='_blank'>
+				<Link href='https://park-ez-fhsu.vercel.app/' target='_blank'>
 					<div className='lg:max-w-[12vw] '>
 						<Image
 							src={parkez}
@@ -65,7 +66,7 @@ export default function Projects() {
 					</div>
 				</Link>
 				<div className='lg:max-w-[25vw] md:max-w-[50vw]'>
-					<Link href='https://fhsu-park-ez.vercel.app/sign-in' target='_blank'>
+					<Link href='https://park-ez-fhsu.vercel.app/' target='_blank'>
 						<p className=' mb-4 text-white text-lg flex items-center hover:text-cyan-500 transition'>
 							ParkEZ
 							<svg
