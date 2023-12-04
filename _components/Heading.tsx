@@ -7,7 +7,7 @@ export default function Heading() {
 		<div className='[&>*]:block [&>*]:mb-4 md:max-w-[50vw] lg:fixed '>
 			<div className='pt-20 flex justify-center'>
 				<Image
-					src='https://avatars.githubusercontent.com/u/71842268?v=4'
+					src='https://avatars.githubusercontent.com/u/71842268?s=400&u=ec7ddc1b88fbb5ce1f001eff5af778f963c22125&v=4'
 					width={250}
 					height={50}
 					alt='profile'
