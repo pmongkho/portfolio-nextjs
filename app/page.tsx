@@ -16,17 +16,18 @@ export default function Home() {
 				<Heading />
 			</div>
 			<div className='[&>*]:mb-24'>
+				{/* projects */}
+				<Projects />
 				{/* education */}
-			  <Education />
-			  {/* certificates */}
-			  <Certificates/>
+				<Education />
+				{/* certificates */}
+				<Certificates />
 				{/* about */}
 				<About />
 				{/* experience */}
 				<Experience />
-				{/* projects */}
-			  <Projects />
-			  <Footer/>
+
+				<Footer />
 			</div>
 		</div>
 	)

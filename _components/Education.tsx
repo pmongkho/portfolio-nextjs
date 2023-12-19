@@ -6,7 +6,7 @@ export default function Education() {
 	return (
 		<div className=' [&>p]:text-slate-400'>
 			<h1 className='heading'>EDUCATION</h1>
-			<p className='leading-7'>Bachelors (in progress) </p>
+			<p className='leading-7'>Bachelor of Science </p>
 			<p className='leading-7'>
 				<span className=' text-white font-bold'>
 					Fort Hays State University · Computer Science
