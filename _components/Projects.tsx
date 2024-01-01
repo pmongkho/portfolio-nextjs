@@ -22,7 +22,7 @@ export default function Projects() {
 					</div>
 				</Link>
 				<div className='lg:max-w-[25vw] md:max-w-[50vw] '>
-					<Link href='https://inkland.vercel.app/' target='_blank'>
+					<Link href='https://coolerheater.azurewebsites.net/' target='_blank'>
 						<p className=' mb-4 text-white text-lg flex items-center hover:text-cyan-500 transition '>
 							CoolerHeater
 							<svg
