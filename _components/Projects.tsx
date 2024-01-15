@@ -45,6 +45,21 @@ export default function Projects() {
 						CoolerHeater is an app that requests a drone that provides the
 						service of heating and cooling clients with a push of a button.
 					</p>
+					<ul>
+						<li>
+							• Successfully completed 50 trial service deployments in test
+							environments
+						</li>
+						<li>
+							• Maintained a positive feedback loop with an 85% approval rating
+							from trial users
+						</li>
+						<li>
+							• Developed proprietary algorithms for efficient routing of drone
+							services{' '}
+						</li>
+
+					</ul>
 					<div className=' flex flex-wrap py-4'>
 						<span className='technology-item'>C#</span>
 						<span className='technology-item'>ASP.NET</span>
@@ -93,15 +108,29 @@ export default function Projects() {
 						artists for job-seeking opportunities or tattoo-inquiring
 						opportunities.
 					</p>
+					<ul>
+						<li>• 100+ active users engaging with the aulp since launch</li>
+						<li>
+							• Connected with 50 local tattoo artists showcasing their work
+						</li>
+						<li>
+							• Steady user engagement with an average session time of 3 minutes
+						</li>
+						<li>
+							• Over 500 tattoo design ideas shared and discussed on the
+							platform
+						</li>
+					</ul>
 					<div className=' py-4'>
 						<span className='technology-item'>Next.js</span>
 						<span className='technology-item'>Tailwind CSS</span>
 						<span className='technology-item'>MongoDB</span>
+						<span className='technology-item'>Stripe API</span>
 					</div>
 				</div>
 			</div>
 
-			<div className='flex flex-wrap-reverse w-full items-end justify-between'>
+			{/* <div className='flex flex-wrap-reverse w-full items-end justify-between'>
 				<Link href='https://park-ez-fhsu.vercel.app/' target='_blank'>
 					<div className='lg:max-w-[12vw] '>
 						<Image
@@ -113,7 +142,7 @@ export default function Projects() {
 						/>
 					</div>
 				</Link>
-				{/* <div className='lg:max-w-[25vw] md:max-w-[50vw]'>
+				<div className='lg:max-w-[25vw] md:max-w-[50vw]'>
 					<Link href='https://park-ez-fhsu.vercel.app/' target='_blank'>
 						<p className=' mb-4 text-white text-lg flex items-center hover:text-cyan-500 transition'>
 							ParkEZ
@@ -145,8 +174,8 @@ export default function Projects() {
 						<span className='technology-item'>MongoDB</span>
 						<span className='technology-item'>Stripe API</span>
 					</div>
-				</div>*/}
-			</div> 
+				</div>
+			</div>*/}
 		</div>
 	)
 }
