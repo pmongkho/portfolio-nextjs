@@ -16,7 +16,7 @@ export default function About() {
 				</span>
 				from start to finish.
 			</p>
-            <p className='leading-7 mb-4'>I am a efficient Software Engineer. I need <span className=' text-white'>little hand holding</span> and I am a <span className=' text-white'>self-starter.</span> I believe I will be a great asset to any team that gives me an opportunity.</p>
+            <p className='leading-7 mb-4'>I am an efficient Software Engineer. I need <span className=' text-white'>little hand holding</span> and I am a <span className=' text-white'>self-starter.</span> I will be a great asset to any team that gives me an opportunity.</p>
 			<p className='leading-7 mb-4'>My hobbies, other than typing on a computer and thinking all day are: being with my daughter, oil painting, tattooing, playing piano, and meditating. </p>
 		</div>
 	)
