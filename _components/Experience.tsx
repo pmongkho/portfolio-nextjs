@@ -8,7 +8,7 @@ export default function Experience() {
 	return (
 		<div className=' text-slate-400   '>
 			{' '}
-			<p className='heading'>EXPERIENCE</p>
+			<p className='heading'>PROFESSIONAL EXPERIENCE</p>
 			<div>
 				{data.map((exp) => (
 					<div className=' flex items-start justify-between flex-wrap mb-12 '>

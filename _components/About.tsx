@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
 	return (
 		<div className=' [&>p]:text-slate-400 '>
-			<h1 className='heading'>ABOUT</h1>
+			<h1 className='heading'>ABOUT ME</h1>
 			<p className='leading-7 mb-4'>
 				Around 2004, I learned HTML & CSS in the age of Myspace. This is what
 				led me to a beautiful life of staying up all night coding and developing
