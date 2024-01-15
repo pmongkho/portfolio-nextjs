@@ -113,7 +113,7 @@ export default function Projects() {
 						/>
 					</div>
 				</Link>
-				<div className='lg:max-w-[25vw] md:max-w-[50vw]'>
+				{/* <div className='lg:max-w-[25vw] md:max-w-[50vw]'>
 					<Link href='https://park-ez-fhsu.vercel.app/' target='_blank'>
 						<p className=' mb-4 text-white text-lg flex items-center hover:text-cyan-500 transition'>
 							ParkEZ
@@ -145,8 +145,8 @@ export default function Projects() {
 						<span className='technology-item'>MongoDB</span>
 						<span className='technology-item'>Stripe API</span>
 					</div>
-				</div>
-			</div>
+				</div>*/}
+			</div> 
 		</div>
 	)
 }

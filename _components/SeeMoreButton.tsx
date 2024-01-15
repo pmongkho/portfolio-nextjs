@@ -8,7 +8,9 @@ export default function SeeMoreButton({ description }:any) {
     return (
 		<div>
 			<p className={` leading-7 mb-2 ${seeMore ? '' : 'line-clamp-5'}`}>
-				{description}
+				{description.map((descr:any) => (
+					<p>{descr}</p>
+				))}
 			</p>
 			<button
 				onClick={() => setSeeMore(!seeMore)}

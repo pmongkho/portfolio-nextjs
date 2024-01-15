@@ -12,7 +12,7 @@ export default function Education() {
 					Fort Hays State University · Computer Science
 				</span>
 			</p>
-			<p className='leading-7 mb-4'>June 2021 - December 2023</p>
+
 		</div>
 	)
 }

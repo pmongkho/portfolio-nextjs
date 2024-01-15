@@ -16,6 +16,8 @@ export default function Home() {
 				<Heading />
 			</div>
 			<div className='[&>*]:mb-24'>
+				{/* experience */}
+				<Experience />
 				{/* projects */}
 				<Projects />
 				{/* education */}
@@ -24,8 +26,6 @@ export default function Home() {
 				<Certificates />
 				{/* about */}
 				<About />
-				{/* experience */}
-				<Experience />
 
 				<Footer />
 			</div>

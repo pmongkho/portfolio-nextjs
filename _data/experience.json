@@ -1,19 +1,45 @@
 {
 "data":[
-        {
-    "_id":1,
-    "dates":"October 2023 - Present",
-    "title":"Research Assistant in Computation Biology",
-    "description":"During my undergraduate research experience in Computational Biology under the guidance of Dr. Michael Gruenstaeudl, I actively engaged in the development and enhancement of innovative software tools. My contributions included implementing new features, debugging existing code, and performing code refactoring to improve software efficiency and readability. I undertook rigorous testing of the code against benchmark datasets, which involved creating unit tests and writing comprehensive docstrings to ensure clarity in code documentation. Additionally, I played a key role in documenting the software tool's functionality for scientific manuscripts, where I was responsible for drafting figures and tables that effectively conveyed our findings and methodologies. My collaboration with Dr. Gruenstaeudl was integral to the project's success; we held regular meetings to coordinate code implementations and assess the software's performance. I also contributed significantly to the project's codebase, making substantial commits to the master branch on GitHub, all under the oversight and guidance of Dr. Gruenstaeudl. This experience not only honed my technical skills but also enriched my collaborative and communication abilities in a research setting.",
-    "technologies":["Python","Data Structures & Algorithms"]
-},
-    {
-    "_id":2,
-    "dates":"Spring 2021 - December 2023",
-    "title":"Software Engineer · FHSU Student",
-    "description":"As a Computer Science student, I honed my programming abilities in  C++, where I learned to build efficient software systems, and in Java, I mastered object-oriented programming, enabling me to develop scalable applications. My coursework in discrete math deepened my grasp of fundamental mathematical concepts, crucial for solving complex algorithmic problems. In database design, I acquired skills for creating and managing data-driven applications, including schema design and SQL querying.My expertise extended to data structures, where I mastered data organization and algorithm design. Front-end web development introduced me to the art of crafting interactive user interfaces with HTML, CSS, and JavaScript. Physics classes enhanced my analytical thinking, and assembly language programming gave me a deeper understanding of computer architecture.In backend web development with Node.js and PHP, I learned to create robust server-side applications and APIs. My study of operating systems provided valuable insights into efficient resource and process management. I also explored computer graphics, gaining knowledge in graphical rendering technologies and algorithms. Learning Python further diversified my programming skills, making me a versatile and adaptable player in the field of software development. Balancing these academic pursuits with my work experience, I gained a comprehensive and well-rounded foundation in both theoretical and practical aspects of computer science.",
-    "technologies":["C++","Java","Python","SQL","APIs", "DSA", "Operating Systems","System Architecture and Design"]
-}
+	{
+		"_id": 1,
+		"dates": "April 2022 - Present",
+		"title": "Software Engineer Consultant • Azula Corp",
+		"description": [
+			"• Project Delivery: Successfully delivered software solutions on time and within budget for 4+ projects.",
+			"• Problem-Solving: Resolved 95% of technical challenges within the project scope, ensuring project continuity.",
+			"• Quality Assurance: Achieved a 98% defect-free software delivery rate through rigorous testing and quality control."
+		],
+		"technologies": ["Django","SPRING","ASP.NET", "Data Structures & Algorithms", "Angular","React", "SQL", "NoSQL"]
+	},
+	{
+		"_id": 2,
+		"dates": "October 2023 - January 2024",
+		"title": "Research Assistant in Computation Biology • FHSU Student Employment",
+		"description": [
+			"• Reduced Data-Mining Time: Implemented multi-threading, reducing data-mining time by 50% and improving research efficiency.",
+			"• Tool Development: Contributed to the development of Bioinformatics tools, resulting in a 20% increase in research productivity.",
+			"• Genomic Analysis: Analyzed and documented insights from 1,000+ genomic datasets, aiding in the understanding of organellar genome structures."
+		],
+		"technologies": ["Python", "Data Structures & Algorithms", "Data Mining"]
+	},
 
-    ]
+	{
+		"_id": 3,
+		"dates": "Spring 2021 - December 2023",
+		"title": "Software Engineer • FHSU Student",
+		"description": [
+			"As a Computer Science student, I honed my programming abilities in  C++, where I learned to build efficient software systems, and in Java, I mastered object-oriented programming, enabling me to develop scalable applications. My coursework in discrete math deepened my grasp of fundamental mathematical concepts, crucial for solving complex algorithmic problems. In database design, I acquired skills for creating and managing data-driven applications, including schema design and SQL querying.My expertise extended to data structures, where I mastered data organization and algorithm design. Front-end web development introduced me to the art of crafting interactive user interfaces with HTML, CSS, and JavaScript. Physics classes enhanced my analytical thinking, and assembly language programming gave me a deeper understanding of computer architecture.In backend web development with Node.js and PHP, I learned to create robust server-side applications and APIs. My study of operating systems provided valuable insights into efficient resource and process management. I also explored computer graphics, gaining knowledge in graphical rendering technologies and algorithms. Learning Python further diversified my programming skills, making me a versatile and adaptable player in the field of software development. Balancing these academic pursuits with my work experience, I gained a comprehensive and well-rounded foundation in both theoretical and practical aspects of computer science."
+		],
+		"technologies": [
+			"C++",
+			"Java",
+			"Python",
+			"SQL",
+			"APIs",
+			"DSA",
+			"Operating Systems",
+			"System Architecture and Design"
+		]
+	}
+]
 }
