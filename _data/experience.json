@@ -5,9 +5,9 @@
 		"dates": "April 2022 - Present",
 		"title": "Software Engineer Consultant • Azula Corp",
 		"description": [
-			"• Project Delivery: Successfully delivered software solutions on time and within budget for 4+ projects.",
-			"• Problem-Solving: Resolved 95% of technical challenges within the project scope, ensuring project continuity.",
-			"• Quality Assurance: Achieved a 98% defect-free software delivery rate through rigorous testing and quality control."
+			"Project Delivery: Successfully delivered software solutions on time and within budget for 4+ projects.",
+			"Problem-Solving: Resolved 95% of technical challenges within the project scope, ensuring project continuity.",
+			"Quality Assurance: Achieved a 98% defect-free software delivery rate through rigorous testing and quality control."
 		],
 		"technologies": ["Django","SPRING","ASP.NET", "Data Structures & Algorithms", "Angular","React", "SQL", "NoSQL"]
 	},
@@ -16,9 +16,9 @@
 		"dates": "October 2023 - January 2024",
 		"title": "Software Developer Researcher, Computation Biology • FHSU Student Employment",
 		"description": [
-			"• Reduced Data-Mining Time: Implemented multi-threading, reducing data-mining time by 50% and improving research efficiency.",
-			"• Tool Development: Contributed to the development of Bioinformatics tools, resulting in a 20% increase in research productivity.",
-			"• Genomic Analysis: Analyzed and documented insights from 1,000+ genomic datasets, aiding in the understanding of organellar genome structures."
+			"Reduced Data-Mining Time: Implemented multi-threading, reducing data-mining time by 50% and improving research efficiency.",
+			"Tool Development: Contributed to the development of Bioinformatics tools, resulting in a 20% increase in research productivity.",
+			"Genomic Analysis: Analyzed and documented insights from 1,000+ genomic datasets, aiding in the understanding of organellar genome structures."
 		],
 		"technologies": ["Python", "Data Structures & Algorithms", "Data Mining"]
 	},
@@ -28,7 +28,36 @@
 		"dates": "Spring 2021 - December 2023",
 		"title": "Software Engineer • FHSU Student",
 		"description": [
-			"As a Computer Science student, I honed my programming abilities in  C++, where I learned to build efficient software systems, and in Java, I mastered object-oriented programming, enabling me to develop scalable applications. My coursework in discrete math deepened my grasp of fundamental mathematical concepts, crucial for solving complex algorithmic problems. In database design, I acquired skills for creating and managing data-driven applications, including schema design and SQL querying.My expertise extended to data structures, where I mastered data organization and algorithm design. Front-end web development introduced me to the art of crafting interactive user interfaces with HTML, CSS, and JavaScript. Physics classes enhanced my analytical thinking, and assembly language programming gave me a deeper understanding of computer architecture.In backend web development with Node.js and PHP, I learned to create robust server-side applications and APIs. My study of operating systems provided valuable insights into efficient resource and process management. I also explored computer graphics, gaining knowledge in graphical rendering technologies and algorithms. Learning Python further diversified my programming skills, making me a versatile and adaptable player in the field of software development. Balancing these academic pursuits with my work experience, I gained a comprehensive and well-rounded foundation in both theoretical and practical aspects of computer science."
+     "       Relevant Coursework:",
+
+"Computer Science and Information Technology Courses:",
+"CSC 441 - Software Engineering",
+"CSC 675 - Seminar in Software Engineering",
+"CSCI 121 - Computer Science I",
+"CSCI 221 - Computer Science II",
+"CSCI 231 - Object-Oriented Programming",
+"CSCI 251 - Data Structures",
+"INF 360 - Programming with Python",
+"INF 651 - Front End Web Development I",
+"INF 652 - Database Design and Programming",
+"CSCI 321 - Assembly Language",
+"CSCI 331 - Operating Systems",
+"CSCI 421 - Programming Languages",
+"CSCI 431 - Computer Graphics",
+"INF 653 - Back-End Web Development I",
+"INF 656 - Back-End Web Development II",
+"CSCI 241 - Foundations of Computing",
+
+"Mathematics Courses:",
+"MATH 240 - Discrete Mathematics",
+"MATH 250 - Elements of Statistics",
+"MATH 234 - Analytic Geometry and Calculus I",
+"MATH 235 - Analytic Geometry and Calculus II",
+
+"Physics Courses:",
+"PHYS 100 - Introduction to Engineering Science",
+"PHYS 211 - Physics for Scientists and Engineers I",
+"PHYS 211L - Physics for Scientists and Engineers I Laboratory"
 		],
 		"technologies": [
 			"C++",
