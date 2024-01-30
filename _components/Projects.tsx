@@ -116,11 +116,11 @@ export default function Projects() {
 						</li>
 
 						<li>
-							• Connected with 50 local tattoo artists showcasing their work
+							• Connected with 5 local tattoo artists showcasing their work
 						</li>
 
 						<li>
-							• Over 500 tattoo design ideas shared and discussed on the
+							• Over 50 tattoo design ideas shared and discussed on the
 							platform
 						</li>
 					</ul>
