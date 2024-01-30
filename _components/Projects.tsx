@@ -47,9 +47,11 @@ export default function Projects() {
 					</p>
 					<ul>
 						<li>
-							• Successfully completed 50 trial service deployments in test
-							environments
+							• I implemented Mapbox geolocation, real-time address search,
+							payments, and real-time tracking of drones in route to location,
+							and payments.
 						</li>
+	
 						<li>
 							• Maintained a positive feedback loop with an 85% approval rating
 							from trial users
@@ -58,7 +60,6 @@ export default function Projects() {
 							• Developed proprietary algorithms for efficient routing of drone
 							services{' '}
 						</li>
-
 					</ul>
 					<div className=' flex flex-wrap py-4'>
 						<span className='technology-item'>C#</span>
@@ -109,7 +110,11 @@ export default function Projects() {
 						opportunities.
 					</p>
 					<ul>
-						<li>• 100+ active users engaging with the aulp since launch</li>
+						<li>
+							• I implemented authentication, registration, posts, messaging,
+							commenting, likes, and profile view capabilities.
+						</li>
+
 						<li>
 							• Connected with 50 local tattoo artists showcasing their work
 						</li>
