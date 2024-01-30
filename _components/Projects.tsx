@@ -118,9 +118,7 @@ export default function Projects() {
 						<li>
 							• Connected with 50 local tattoo artists showcasing their work
 						</li>
-						<li>
-							• Steady user engagement with an average session time of 3 minutes
-						</li>
+
 						<li>
 							• Over 500 tattoo design ideas shared and discussed on the
 							platform
