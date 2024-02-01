@@ -11,17 +11,21 @@ export default function Projects() {
 			<p className=' heading'>PROJECTS</p>
 			<div className='flex flex-wrap-reverse w-full items-end justify-between mb-8'>
 				<Link href='https://coolerheater.azurewebsites.net/' target='_blank'>
-					<div className='lg:max-w-[12vw] '>
-						<Image
+					<div className='lg:max-w-[24vw] '>
+						{/* <Image
 							src={heatercooler}
 							width={250}
 							height={250}
 							alt='project picture'
 							className=' border rounded border-cyan-700 mb-8 hover:border-2 hover:shadow-xl transition '
-						/>
+						/> */}
+						<video autoPlay muted loop>
+							<source src='/videos/coolerheatervid.mp4' type='video/mp4' />
+							Your browser does not support the video tag.
+						</video>
 					</div>
 				</Link>
-				<div className='lg:max-w-[25vw] md:max-w-[50vw] '>
+				<div className='lg:max-w-[20vw] md:max-w-[50vw] '>
 					<Link href='https://coolerheater.azurewebsites.net/' target='_blank'>
 						<p className=' mb-4 text-white text-lg flex items-center hover:text-cyan-500 transition '>
 							CoolerHeater
@@ -51,7 +55,7 @@ export default function Projects() {
 							payments, and real-time tracking of drones in route to location,
 							and payments.
 						</li>
-	
+
 						<li>
 							• Maintained a positive feedback loop with an 85% approval rating
 							from trial users
@@ -74,17 +78,21 @@ export default function Projects() {
 			</div>
 			<div className='flex flex-wrap-reverse w-full items-end justify-between mb-8'>
 				<Link href='https://inkland.vercel.app/' target='_blank'>
-					<div className='lg:max-w-[12vw] '>
-						<Image
+					<div className='lg:max-w-[24vw] '>
+						{/* <Image
 							src={inkland}
 							width={250}
 							height={250}
 							alt='project picture'
 							className=' border rounded border-cyan-700 mb-8 hover:border-2 hover:shadow-xl transition '
-						/>
+						/> */}
+						<video autoPlay muted loop>
+							<source src='/videos/inklandvid.mp4' type='video/mp4' />
+							Your browser does not support the video tag.
+						</video>
 					</div>
 				</Link>
-				<div className='lg:max-w-[25vw] md:max-w-[50vw] '>
+				<div className='lg:max-w-[20vw] md:max-w-[50vw] '>
 					<Link href='https://inkland.vercel.app/' target='_blank'>
 						<p className=' mb-4 text-white text-lg flex items-center hover:text-cyan-500 transition '>
 							Inkland
@@ -120,11 +128,10 @@ export default function Projects() {
 						</li>
 
 						<li>
-							• Over 50 tattoo design ideas shared and discussed on the
-							platform
+							• Over 50 tattoo design ideas shared and discussed on the platform
 						</li>
 					</ul>
-					<div className=' py-4'>
+					<div className=' flex flex-wrap py-4'>
 						<span className='technology-item'>Next.js</span>
 						<span className='technology-item'>Tailwind CSS</span>
 						<span className='technology-item'>MongoDB</span>
