@@ -2,14 +2,14 @@
 "data":[
 	{
 		"_id": 1,
-		"dates": "April 2022 - Present",
-		"title": "Software Engineer Consultant • Azula Corp",
+		"dates": "October 2020 - Present",
+		"title": "Software Developer & Logistics/Production  • Simmons Pet Food",
 		"description": [
-			"Project Delivery: Successfully delivered software solutions on time and within budget for 4+ projects.",
-			"Problem-Solving: Resolved 95% of technical challenges within the project scope, ensuring project continuity.",
-			"Quality Assurance: Achieved a 98% defect-free software delivery rate through rigorous testing and quality control."
+			"Created a software solution for a $10 million dollar company, using a custom algorithm I’ve developed, I was able to organize and sort production requirements which turned a 3 hour process into 5 minutes.",
+			"Using an Oracle DB and Enterprise applications, I helped to lead and coordinate production requirements for one of the largest wet pet food plants in the nation. ",
+			"On weekends I acted as a senior team-member which oversaw 5 employees"
 		],
-		"technologies": ["Django","SPRING","ASP.NET", "Data Structures & Algorithms", "Angular","React", "SQL", "NoSQL"]
+		"technologies": ["Oracle Database","SQL","JD Edwards", "Data Structures & Algorithms", "Enterprise Software","Software Development", "Leadership", "Team Management"]
 	},
 	{
 		"_id": 2,
@@ -18,9 +18,9 @@
 		"description": [
 			"Reduced Data-Mining Time: Implemented multi-threading, reducing data-mining time by 50% and improving research efficiency.",
 			"Tool Development: Contributed to the development of Bioinformatics tools, resulting in a 20% increase in research productivity.",
-			"Genomic Analysis: Analyzed and documented insights from 1,000+ genomic datasets, aiding in the understanding of organellar genome structures."
+			"Genomic Analysis: Analysed and documented 1,000+ genomic datasets, aiding in the understanding of the organelle genome"
 		],
-		"technologies": ["Python", "Data Structures & Algorithms", "Data Mining"]
+		"technologies": ["Python", "Data Structures & Algorithms", "Data Mining","Multithreaded Development","Big Data","Data Analysis"]
 	},
 
 	{
@@ -60,12 +60,12 @@
 "PHYS 211L - Physics for Scientists and Engineers I Laboratory"
 		],
 		"technologies": [
-			"C++",
-			"Java",
-			"Python",
-			"SQL",
+			"Software Design",
+			"Back-End Web Development",
+			"Front-end Development",
+			"Database Development & Design",
 			"APIs",
-			"DSA",
+			"Data Structures & Algorithms",
 			"Operating Systems",
 			"System Architecture and Design"
 		]
