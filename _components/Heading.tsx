@@ -18,7 +18,7 @@ export default function Heading() {
 				<big className=' text-4xl font-bold'>Eddy Mongkhonvilay</big>
 				<p className=' text-xl '>Software Engineer</p>
 				<p className=' text-slate-400 leading-8'>
-					I build artistic, efficient, and scalable apps for the web.
+					Artistic Backend Software Engineer.
 				</p>
 				<div className='[&>*]:text-white [&>*]:mr-4 pt-4'>
 					<Link href='https://github.com/pmongkho' target='_blank'>

@@ -11,19 +11,19 @@ export default function Projects() {
 			<p className=' heading'>PROJECTS</p>
 			<div className='flex flex-wrap-reverse w-full items-end justify-between mb-8'>
 				{/* <Link href='https://coolerheater.azurewebsites.net/' target='_blank'> */}
-					<div className='lg:max-w-[24vw] '>
-						{/* <Image
+				<div className='lg:max-w-[24vw] '>
+					{/* <Image
 							src={heatercooler}
 							width={250}
 							height={250}
 							alt='project picture'
 							className=' border rounded border-cyan-700 mb-8 hover:border-2 hover:shadow-xl transition '
 						/> */}
-						<video autoPlay muted loop>
-							<source src='/videos/coolerheatervid.mp4' type='video/mp4' />
-							Your browser does not support the video tag.
-						</video>
-					</div>
+					<video autoPlay muted loop>
+						<source src='/videos/coolerheatervid.mp4' type='video/mp4' />
+						Your browser does not support the video tag.
+					</video>
+				</div>
 				{/* </Link> */}
 				<div className='lg:max-w-[20vw] md:max-w-[50vw] '>
 					<Link href='https://coolerheater.azurewebsites.net/' target='_blank'>
@@ -45,24 +45,19 @@ export default function Projects() {
 							</svg>
 						</p>
 					</Link>
-					<p>
-						CoolerHeater is an app that requests a drone that provides the
-						service of heating and cooling clients with a push of a button.
-					</p>
+					<p>Cooler-Heater (Drone Temperature Service)</p>
 					<ul>
 						<li>
-							• I implemented Mapbox geolocation, real-time address search,
-							payments, and real-time tracking of drones in route to location,
-							and payments.
+							• Developed an on-demand drone dispatch service for temperature
+							regulation using ASP.NET for the backend and Angular for the front
+							end, creating a real-time, ride-sharing–style solution for
+							localized cooling and heating.
 						</li>
 
 						<li>
-							• Maintained a positive feedback loop with an 85% approval rating
-							from trial users
-						</li>
-						<li>
-							• Developed proprietary algorithms for efficient routing of drone
-							services{' '}
+							• Leveraged MongoDB for scalable, flexible data management,
+							integrating geospatial routing and scheduling capabilities to
+							efficiently coordinate drone operations.
 						</li>
 					</ul>
 					<div className=' flex flex-wrap py-4'>
@@ -112,24 +107,20 @@ export default function Projects() {
 							</svg>
 						</p>
 					</Link>
-					<p>
-						Inkland is your go-to tattoo app, connecting clients with talented
-						artists for job-seeking opportunities or tattoo-inquiring
-						opportunities.
-					</p>
+					<p>Inkland (Tattoo Social Media Platform)</p>
 					<ul>
 						<li>
-							• I implemented authentication, registration, posts, messaging,
-							commenting, likes, and profile view capabilities.
+							• Designed and implemented Inkland as a modern social media
+							platform for tattoo enthusiasts using Next.js to deliver fast,
+							server-rendered pages with excellent SEO and performance.
 						</li>
 
 						<li>
-							• Connected with 5 local tattoo artists showcasing their work
+							• Utilized MongoDB to manage dynamic content, user authentication,
+							and community interactions, enabling robust data storage and
+							seamless user experience across the platform.
 						</li>
 
-						<li>
-							• Over 50 tattoo design ideas shared and discussed on the platform
-						</li>
 					</ul>
 					<div className=' flex flex-wrap py-4'>
 						<span className='technology-item'>Next.js</span>
