@@ -3,72 +3,25 @@
 	{
 		"_id": 1,
 		"dates": "October 2020 - Present",
-		"title": "Software Developer & Logistics/Production  • Simmons Pet Food",
+		"title": "Receiving and Independent Software Developer  • Simmons Pet Food",
 		"description": [
-			"Created a software solution for a $10 million dollar company, using a custom algorithm I’ve developed, I was able to organize and sort production requirements which turned a 3 hour process into 5 minutes.",
-			"Using an Oracle DB and Enterprise applications, I helped to lead and coordinate production requirements for one of the largest wet pet food plants in the nation. ",
-			"On weekends I acted as a senior team-member which oversaw 5 employees"
+			"Automated Production Planning: Developed and implemented an automated PDF parsing and plan-sorting system using Django and Angular that integrates with Oracle JD Edwards and PostgreSQL to extract production requirements from three production lines, generating accurate meat pull lists for a dog food manufacturing facility.",
+			"Workflow Optimization: Streamlined production processes by consolidating data extraction and automation through a custom solution leveraging Oracle JD Edwards and PostgreSQL, reducing manual data entry, minimizing errors, and optimizing resource allocation across multiple production lines."
 		],
 		"technologies": ["Oracle Database","SQL","JD Edwards", "Data Structures & Algorithms", "Enterprise Software","Software Development", "Leadership", "Team Management"]
 	},
 	{
 		"_id": 2,
-		"dates": "October 2023 - January 2024",
-		"title": "Software Developer Researcher, Computation Biology • FHSU Student Employment",
+		"dates": "June 2023 - January 2024",
+		"title": "Researcher Assistant, Computational Biology (Python)",
 		"description": [
-			"Reduced Data-Mining Time: Implemented multi-threading, reducing data-mining time by 50% and improving research efficiency.",
-			"Tool Development: Contributed to the development of Bioinformatics tools, resulting in a 20% increase in research productivity.",
-			"Genomic Analysis: Analysed and documented 1,000+ genomic datasets, aiding in the understanding of the organelle genome"
+			"Enhanced Bioinformatics Pipeline: Improved the PlastomeBurstAndAlign pipeline by developing and optimizing algorithms for sequence bursting and alignment, leading to increased processing speed and accuracy of plastid genome analyses.",
+			"Active Code Contributor: Made 11 substantial commits to the project, collaborating on feature enhancements and workflow integrations that streamlined high-throughput plastome data processing for evolutionary and comparative studies."
 		],
 		"technologies": ["Python", "Data Structures & Algorithms", "Data Mining","Multithreaded Development","Big Data","Data Analysis"]
-	},
-
-	{
-		"_id": 3,
-		"dates": "Spring 2021 - December 2023",
-		"title": "Software Engineer • FHSU Student",
-		"description": [
-     "       Relevant Coursework:",
-
-"Computer Science and Information Technology Courses:",
-"CSC 441 - Software Engineering",
-"CSC 675 - Seminar in Software Engineering",
-"CSCI 121 - Computer Science I",
-"CSCI 221 - Computer Science II",
-"CSCI 231 - Object-Oriented Programming",
-"CSCI 251 - Data Structures",
-"INF 360 - Programming with Python",
-"INF 651 - Front End Web Development I",
-"INF 652 - Database Design and Programming",
-"CSCI 321 - Assembly Language",
-"CSCI 331 - Operating Systems",
-"CSCI 421 - Programming Languages",
-"CSCI 431 - Computer Graphics",
-"INF 653 - Back-End Web Development I",
-"INF 656 - Back-End Web Development II",
-"CSCI 241 - Foundations of Computing",
-
-"Mathematics Courses:",
-"MATH 240 - Discrete Mathematics",
-"MATH 250 - Elements of Statistics",
-"MATH 234 - Analytic Geometry and Calculus I",
-"MATH 235 - Analytic Geometry and Calculus II",
-
-"Physics Courses:",
-"PHYS 100 - Introduction to Engineering Science",
-"PHYS 211 - Physics for Scientists and Engineers I",
-"PHYS 211L - Physics for Scientists and Engineers I Laboratory"
-		],
-		"technologies": [
-			"Software Design",
-			"Back-End Web Development",
-			"Front-end Development",
-			"Database Development & Design",
-			"APIs",
-			"Data Structures & Algorithms",
-			"Operating Systems",
-			"System Architecture and Design"
-		]
 	}
+
+	
+	
 ]
 }

@@ -10,7 +10,7 @@ export default function Projects() {
 		<div className=' text-slate-400'>
 			<p className=' heading'>PROJECTS</p>
 			<div className='flex flex-wrap-reverse w-full items-end justify-between mb-8'>
-				<Link href='https://coolerheater.azurewebsites.net/' target='_blank'>
+				{/* <Link href='https://coolerheater.azurewebsites.net/' target='_blank'> */}
 					<div className='lg:max-w-[24vw] '>
 						{/* <Image
 							src={heatercooler}
@@ -24,7 +24,7 @@ export default function Projects() {
 							Your browser does not support the video tag.
 						</video>
 					</div>
-				</Link>
+				{/* </Link> */}
 				<div className='lg:max-w-[20vw] md:max-w-[50vw] '>
 					<Link href='https://coolerheater.azurewebsites.net/' target='_blank'>
 						<p className=' mb-4 text-white text-lg flex items-center hover:text-cyan-500 transition '>
