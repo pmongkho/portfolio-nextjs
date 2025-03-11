@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import BuyMeACoffeeButton from './BuyMeACoffeeButton'
 
 export default function Heading() {
 	return (
@@ -53,6 +54,7 @@ export default function Heading() {
 							</svg>
 						</button>
 					</Link>
+					<button><BuyMeACoffeeButton/></button>
 				</div>
 			</div>
 		</div>
