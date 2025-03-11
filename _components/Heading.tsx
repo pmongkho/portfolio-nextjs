@@ -21,7 +21,7 @@ export default function Heading() {
 				<p className=' text-slate-400 leading-8'>
 					Artistic Backend Software Engineer.
 				</p>
-				<div className='[&>*]:text-white [&>*]:mr-4 pt-4'>
+				<div className='[&>*]:text-white [&>*]:mr-4 pt-4 flex items-center'>
 					<Link href='https://github.com/pmongkho' target='_blank'>
 						<button>
 							<svg

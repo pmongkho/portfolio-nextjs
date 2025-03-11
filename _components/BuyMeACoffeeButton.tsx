@@ -32,7 +32,7 @@ export default function BuyMeACoffeeButton() {
 		<button
 			onClick={handleBuyCoffee}
 			disabled={loading}
-			style={{ padding: '0.5rem 1rem', fontSize: '1.2rem' }}
+			className='opacity-50 hover:opacity-100 transition bg-white py-1 px-2 rounded text-gray-800'
 		>
 			{loading ? 'Processing...' : 'Buy Me a Coffee ($3.00)'}
 		</button>
