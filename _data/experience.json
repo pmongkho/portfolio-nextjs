@@ -1,27 +1,56 @@
 {
-"data":[
-	{
-		"_id": 1,
-		"dates": "October 2020 - Present",
-		"title": "Receiving and Independent Software Developer  • Simmons Pet Food",
-		"description": [
-			"Automated Production Planning: Developed and implemented an automated PDF parsing and plan-sorting system using Django and Angular that integrates with Oracle JD Edwards and PostgreSQL to extract production requirements from three production lines, generating accurate meat pull lists for a dog food manufacturing facility.",
-			"Workflow Optimization: Streamlined production processes by consolidating data extraction and automation through a custom solution leveraging Oracle JD Edwards and PostgreSQL, reducing manual data entry, minimizing errors, and optimizing resource allocation across multiple production lines."
-		],
-		"technologies": ["Oracle Database","SQL","JD Edwards", "Data Structures & Algorithms", "Enterprise Software","Software Development", "Leadership", "Team Management"]
-	},
-	{
-		"_id": 2,
-		"dates": "June 2023 - January 2024",
-		"title": "Researcher Assistant, Computational Biology (Python)",
-		"description": [
-			"Enhanced Bioinformatics Pipeline: Improved the PlastomeBurstAndAlign pipeline by developing and optimizing algorithms for sequence bursting and alignment, leading to increased processing speed and accuracy of plastid genome analyses.",
-			"Active Code Contributor: Made 11 substantial commits to the project, collaborating on feature enhancements and workflow integrations that streamlined high-throughput plastome data processing for evolutionary and comparative studies."
-		],
-		"technologies": ["Python", "Data Structures & Algorithms", "Data Mining","Multithreaded Development","Big Data","Data Analysis"]
-	}
-
-	
-	
-]
+  "data": [
+    {
+      "_id": 1,
+      "dates": "2025 – Present",
+      "title": "Senior Software Engineer • Azula Investment Group LLC",
+      "description": [
+        "Designed and scaled a multi-tenant platform for tattoo studios covering consultations, artist dashboards, bookings, deals, and client workflows.",
+        "Built an ASP.NET Core API with an Angular 19 front end backed by PostgreSQL to deliver a scalable, enterprise-grade architecture.",
+        "Integrated Azure Blob Storage for media management and Azure Communication Services for SMS notifications that keep clients engaged.",
+        "Executed targeted Facebook and Instagram campaigns that produced 1,619 link clicks ($0.10 CPC), 20,715 reach, 28,068 impressions, and roughly 50 client signups."
+      ],
+      "technologies": [
+        "ASP.NET Core",
+        "Angular 19",
+        "PostgreSQL",
+        "Azure Blob Storage",
+        "Azure Communication Services",
+        "REST APIs",
+        "Azure"
+      ]
+    },
+    {
+      "_id": 2,
+      "dates": "Oct 2023 – 2025",
+      "title": "Software Developer • Simmons Pet Food",
+      "description": [
+        "Automated production planning by parsing PDFs and sorting plans with a Django and Angular solution that integrates Oracle JD Edwards and PostgreSQL.",
+        "Streamlined ERP workflows to reduce manual data entry, decrease waste, and improve scheduling accuracy across multiple production lines."
+      ],
+      "technologies": [
+        "Django",
+        "Angular",
+        "Oracle JD Edwards",
+        "PostgreSQL",
+        "ERP Automation",
+        "SSRS"
+      ]
+    },
+    {
+      "_id": 3,
+      "dates": "2021 – 2023",
+      "title": "Research Assistant • Fort Hays State University",
+      "description": [
+        "Improved bioinformatics pipelines through automation and algorithm optimization to splice and organize plant DNA genomes.",
+        "Contributed software to a published scientific study by enhancing plastome data processing workflows."
+      ],
+      "technologies": [
+        "Python",
+        "Bioinformatics",
+        "Data Processing",
+        "Automation"
+      ]
+    }
+  ]
 }
