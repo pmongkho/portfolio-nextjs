@@ -1,11 +1,53 @@
 {
-    "data":[
-        {
-            "_id": 1,
-            "title":"Inkland",
-            "description":"Inkland is your go-to tattoo app, connecting clients with talentedartists for job-seeking opportunities. Clients can easily explore artistportfolios, communicate directly with tattoo professionals, scheduleappointments, and leave reviews, while artists can showcase their work, manage their schedules, and grow their client base. With a vibrantcommunity and a user-friendly interface, Inkland is the ultimatedestination for all your tattoo needs, whether you're looking to getinked or seeking artistic opportunities in the tattoo industry.",
-            "technologies":["Next.js","Tailwind CSS","MongoDB"],
-            "image":"/Users/azulatech/Desktop/CS PROJECTS/NEXTJS/portfolio/_media/inkland.png"
-        }
-    ]
+  "data": [
+    {
+      "_id": 1,
+      "title": "AI Tattoo Assistant",
+      "link": "https://ai-tattoo-assistant.vercel.app/chat",
+      "summary": "Conversational assistant that guides clients through tattoo consultations and captures requirements for studio teams.",
+      "highlights": [
+        "Implemented chat flows with Next.js and OpenAI APIs to provide design inspiration, readiness checklists, and follow-up prompts.",
+        "Embedded analytics to track engagement patterns that inform marketing and campaign targeting for partner studios."
+      ],
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "OpenAI API",
+        "Vercel"
+      ]
+    },
+    {
+      "_id": 2,
+      "title": "LaPlazaTattoo",
+      "link": "https://laplazatattoo.vercel.app",
+      "summary": "Marketing platform for a Kansas City tattoo collective with lead capture, portfolio storytelling, and event promotion.",
+      "highlights": [
+        "Built responsive Angular-inspired layouts in Next.js that highlight artist spotlights, testimonials, and booking CTAs.",
+        "Integrated form automation and social tracking pixels to connect campaign traffic with signed consultation requests."
+      ],
+      "technologies": [
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "Marketing Analytics"
+      ]
+    },
+    {
+      "_id": 3,
+      "title": "Inkland Tattoo Marketplace",
+      "link": "https://inkland.vercel.app/job-page",
+      "summary": "Marketplace that connects tattoo artists and clients with role-based dashboards, job postings, and workflow tools.",
+      "highlights": [
+        "Delivered multi-tenant features for artist portfolios, job bidding, and appointment tracking backed by a scalable API design.",
+        "Extended the platform with payment-ready flows and marketplace messaging to support future monetization."
+      ],
+      "technologies": [
+        "Next.js",
+        "Tailwind CSS",
+        "MongoDB",
+        "REST APIs"
+      ]
+    }
+  ]
 }
