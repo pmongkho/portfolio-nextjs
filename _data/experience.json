@@ -3,7 +3,7 @@
     {
       "_id": 1,
       "dates": "2025 – Present",
-      "title": "Senior Software Engineer • Azula Investment Group LLC",
+      "title": "Software Engineer • Azula Investment Group LLC",
       "description": [
         "Designed and scaled a multi-tenant platform for tattoo studios covering consultations, artist dashboards, bookings, deals, and client workflows.",
         "Built an ASP.NET Core API with an Angular 19 front end backed by PostgreSQL to deliver a scalable, enterprise-grade architecture.",
