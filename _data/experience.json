@@ -23,7 +23,7 @@
     {
       "_id": 2,
       "dates": "Oct 2023 – 2025",
-      "title": "Software Developer • Simmons Pet Food",
+      "title": "Software Developer • Azula Investment Group LLC",
       "description": [
         "Automated production planning by parsing PDFs and sorting plans with a Django and Angular solution that integrates Oracle JD Edwards and PostgreSQL.",
         "Streamlined ERP workflows to reduce manual data entry, decrease waste, and improve scheduling accuracy across multiple production lines."
@@ -39,7 +39,7 @@
     },
     {
       "_id": 3,
-      "dates": "2021 – 2023",
+      "dates": "2023 – 2023",
       "title": "Research Assistant • Fort Hays State University",
       "description": [
         "Improved bioinformatics pipelines through automation and algorithm optimization to splice and organize plant DNA genomes.",
