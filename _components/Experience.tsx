@@ -1,33 +1,15 @@
-import experience from '../_data/experience.json'
-import SeeMoreButton from './SeeMoreButton'
+import { experiences } from '@/_data/portfolio'
 
 export default function Experience() {
-        const data = experience.data
-
-        return (
-                <div className=' text-slate-400   '>
-                        {' '}
-                        <p className='heading'>PROFESSIONAL EXPERIENCE</p>
-                        <div>
-                                {data.map((exp) => (
-                                        <div key={exp._id} className=' flex items-start justify-between flex-wrap mb-12 '>
-                                                <div className=' pr-8'>
-                                                        <p className='leading-7 mb-2 '>{exp.dates}</p>
-                                                </div>
-                                                <div className='lg:max-w-[30vw] md:max-w-[70vw] '>
-                                                        <p className='leading-7  text-white mb-2'>{exp.title}</p>
-                                                        <SeeMoreButton description={exp.description} />
-                                                        <div className='flex flex-wrap'>
-                                                                {exp.technologies.map((item) => (
-                                                                        <span key={`${exp._id}-${item}`} className='technology-item'>
-                                                                                {item}
-                                                                        </span>
-                                                                ))}
-                                                        </div>
-                                                </div>
-                                        </div>
-                                ))}
-                        </div>
-                </div>
-        )
+	return <section id='experience' className='section-shell content-section' aria-labelledby='experience-title'>
+		<div className='section-heading'><p className='eyebrow'>01 / Experience</p><h2 id='experience-title'>Software ownership,<br />from requirement to release.</h2></div>
+		<div className='timeline'>
+			{experiences.map((item) => <article className='timeline-item' key={item.id}>
+				<div className='timeline-meta'><p>{item.dates}</p><span aria-hidden='true' /></div>
+				<div><p className='organization'>{item.organization}</p><h3>{item.title}</h3><p>{item.description}</p>
+					<ul>{item.highlights.map((highlight) => <li key={highlight}>{highlight}</li>)}</ul>
+				</div>
+			</article>)}
+		</div>
+	</section>
 }
