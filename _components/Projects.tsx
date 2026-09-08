@@ -1,56 +1,36 @@
-import Link from 'next/link'
-import React from 'react'
-import projects from '../_data/projects.json'
+import { projects, type Project } from '@/_data/portfolio'
+
+function Architecture({ steps }: { steps: string[] }) {
+	return <div className='architecture' aria-label={`Architecture: ${steps.join(' to ')}`}>
+		{steps.map((step, index) => <div key={step}><span>{step}</span>{index < steps.length - 1 && <b aria-hidden='true'>→</b>}</div>)}
+	</div>
+}
+
+function ProjectCaseStudy({ project, index }: { project: Project, index: number }) {
+	return <article className='project-card' id={project.id}>
+		<div className='project-number'>0{index + 1}</div>
+		<div className='project-main'>
+			<p className='project-context'>{project.context}</p><h3>{project.title}</h3><p className='project-summary'>{project.summary}</p>
+			<div className='tags'>{project.stack.map((item) => <span key={item}>{item}</span>)}</div>
+			<details>
+				<summary>View case study <span aria-hidden='true'>+</span></summary>
+				<div className='case-study'>
+					<section><h4>Business problem</h4><p>{project.problem}</p></section>
+					<section><h4>My role</h4><p>{project.role}</p></section>
+					{project.architecture && <section className='full'><h4>Architecture</h4><Architecture steps={project.architecture} /></section>}
+					<section><h4>Key features</h4><ul>{project.features.map(feature => <li key={feature}>{feature}</li>)}</ul></section>
+					{project.decisions && <section><h4>Technical decisions</h4>{project.decisions.map(item => <p key={item}>{item}</p>)}</section>}
+					{project.repository && <section className='full'><a className='text-link' href={project.repository} target='_blank' rel='noreferrer'>View repository on GitHub ↗</a></section>}
+				</div>
+			</details>
+		</div>
+	</article>
+}
 
 export default function Projects() {
-        const data = projects.data
-
-        return (
-                <div className=' text-slate-400'>
-                        <p className=' heading'>PROJECTS</p>
-                        <div className='flex flex-col gap-16'>
-                                {data.map((project) => (
-                                        <div key={project._id} className='lg:max-w-[40vw] md:max-w-[70vw]'>
-                                                <Link
-                                                        href={project.link}
-                                                        target='_blank'
-                                                        rel='noopener noreferrer'
-                                                        className=' mb-4 text-white text-lg flex items-center hover:text-cyan-500 transition'
-                                                >
-                                                        {project.title}
-                                                        <svg
-                                                                xmlns='http://www.w3.org/2000/svg'
-                                                                fill='none'
-                                                                viewBox='0 0 24 24'
-                                                                strokeWidth={1.5}
-                                                                stroke='currentColor'
-                                                                className='w-4 h-4 mx-2 '
-                                                        >
-                                                                <path
-                                                                        strokeLinecap='round'
-                                                                        strokeLinejoin='round'
-                                                                        d='M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25'
-                                                                />
-                                                        </svg>
-                                                </Link>
-                                                <p className='leading-7 mb-4'>{project.summary}</p>
-                                                {project.highlights?.length ? (
-                                                        <ul className='list-disc pl-5 space-y-2 mb-4'>
-                                                                {project.highlights.map((highlight, index) => (
-                                                                        <li key={`${project._id}-highlight-${index}`}>{highlight}</li>
-                                                                ))}
-                                                        </ul>
-                                                ) : null}
-                                                <div className=' flex flex-wrap py-2'>
-                                                        {project.technologies.map((item) => (
-                                                                <span key={`${project._id}-${item}`} className='technology-item'>
-                                                                        {item}
-                                                                </span>
-                                                        ))}
-                                                </div>
-                                        </div>
-                                ))}
-                        </div>
-                </div>
-        )
+	return <section id='projects' className='section-shell content-section' aria-labelledby='projects-title'>
+		<div className='section-heading'><p className='eyebrow'>02 / Selected work</p><h2 id='projects-title'>Featured engineering projects.</h2><p>Business systems, real-time processing, and full-stack product development.</p></div>
+		<div className='projects'>{projects.map((project, index) => <ProjectCaseStudy project={project} index={index} key={project.id} />)}</div>
+		<a className='button' href='https://github.com/pmongkho?tab=repositories' target='_blank' rel='noreferrer'>View more on GitHub ↗</a>
+	</section>
 }

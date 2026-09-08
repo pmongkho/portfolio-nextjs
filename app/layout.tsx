@@ -1,13 +1,16 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-	title: 'Eddy Mongkhonvilay',
-	description: 'Portfolio',
-
+	metadataBase: new URL('https://eddymongkhonvilay.dev'),
+	title: 'Phongsavanh “Eddy” Mongkhonvilay | .NET Full-Stack Software Engineer',
+	description: 'Full-stack software engineer specializing in C#, ASP.NET Core, Angular, PostgreSQL, SQL Server, and Azure. Building enterprise applications, operational systems, APIs, and business automation.',
+	openGraph: {
+		title: 'Phongsavanh “Eddy” Mongkhonvilay | .NET Full-Stack Software Engineer',
+		description: 'Full-stack software engineer specializing in C#, ASP.NET Core, Angular, PostgreSQL, SQL Server, and Azure.',
+		url: 'https://eddymongkhonvilay.dev', type: 'website', siteName: 'Eddy Mongkhonvilay',
+	},
+	robots: { index: true, follow: true },
 }
 
 export default function RootLayout({
@@ -17,9 +20,7 @@ export default function RootLayout({
 }) {
   return (
 		<html lang='en'>
-			<body
-				className={`${inter.className} bg-slate-800 text-white h-full px-10 pt-20 text-base font-roboto`}
-			>
+			<body>
 				{children}
 			</body>
 		</html>
