@@ -23,32 +23,41 @@ export interface Project {
 
 export const experiences: ExperienceItem[] = [
 	{
-		id: 'azula', dates: '2022 — Present', organization: 'Azula Investment Group LLC',
-		title: 'Founder / Full-Stack Software Engineer',
-		description: 'Architect and ship custom commercial applications while managing the software development lifecycle from data modeling and backend architecture through frontend implementation and Azure deployment.',
+		id: 'azula',
+		dates: '2022 — Present',
+		organization: 'Azula Investment Group LLC',
+		title: 'Full-Stack Software Engineer',
+		description:
+			'Architected and shipped a suite of custom commercial applications, managing the entire software development lifecycle (SDLC) from initial data modeling through Azure cloud deployment.',
 		highlights: [
-			'Architect full-stack business applications with C#, ASP.NET Core, Angular, PostgreSQL, SQL Server, and Azure.',
-			'Engineer secure REST APIs and authentication workflows, relational data structures, and operational interfaces.',
-			'Translate business requirements into maintainable software and own debugging, deployment, and ongoing improvement.',
+			'Engineered secure REST APIs using ASP.NET Core, implementing JWT-based authentication mechanisms and high-throughput file-storage pipelines utilizing Azure Blob Storage.',
+			'Designed and optimized complex relational schemas in PostgreSQL and SQL Server, improving data retrieval efficiency for logistics and lead-generation modules.',
+			'Built dynamic, modular user interfaces in Angular, leveraging TypeScript, RxJS, and clean state management to deliver intuitive data visualization dashboards for business stakeholders.',
 		],
 	},
+
 	{
-		id: 'simmons', dates: '2024, 2026', organization: 'Simmons Foods',
-		title: 'Enterprise Software Engineering — Contract through Azula',
-		description: 'Built software addressing logistics, operations, and production-planning workflows.',
+		id: 'simmons',
+		dates: '2024, 2026',
+		organization: 'Simmons Foods (via Azula Contract)',
+		title: 'Enterprise Software Engineer',
+		description:
+			'Digitized legacy operations by designing a centralized Fuel Operations Management System, transitioning a paper-heavy trailer-fueling workflow into a live-tracking software system.',
 		highlights: [
-			'Designed a centralized application for trailer-fueling workflows, operational records, users, and reporting using ASP.NET Core, Angular, and PostgreSQL.',
-			'Built software and automation around Oracle JD Edwards enterprise data for reporting and production-planning workflows.',
-			'Aggregated operational data into usable software views and automated repetitive processing.',
+			'Engineered robust automation layers on top of enterprise Oracle JD Edwards ERP databases, automating high-volume data aggregation and production-planning workflows.',
+			'Eliminated manual data-entry overhead for logistics and operations teams by building custom reporting tools that synthesized disparate data structures into clean operational views.',
 		],
 	},
+
 	{
-		id: 'fhsu', dates: '2023', organization: 'Fort Hays State University',
-		title: 'Research Assistant — Software & Data',
-		description: 'Developed software automation supporting genome sequencing research.',
+		id: 'fhsu',
+		dates: '2023',
+		organization: 'Fort Hays State University',
+		title: 'Software Developer Internship',
+		description:
+			'Accelerated biological research workflows by writing automation scripts to process, clean, and structure high-volume genome sequencing datasets.',
 		highlights: [
-			'Processed, cleaned, and organized research data while debugging existing tools and workflows.',
-			'Collaborated with academic researchers to identify software bottlenecks and improve computational processes.',
+			'Collaborated closely with cross-functional academic teams to identify software bottlenecks, debug existing tools, and improve script execution times.',
 		],
 	},
 ]
